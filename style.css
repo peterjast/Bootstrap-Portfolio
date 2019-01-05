@@ -69,7 +69,7 @@
   .soon { 
     position: relative;
     height: 220px;
-    width: 254px;
+    width: 100%;
     padding-top: 25px;
     margin: auto;
   }
@@ -155,4 +155,30 @@ a.nav-link:hover {
     border-top-color: #4aaaa5;
     border-top-style: solid;
     border-top-width: 8px;
+}
+
+.container {
+    position: relative;
+}
+
+.text-block {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    margin: auto;
+  }
+
+a.wordguessgame {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+} 
+
+a.wordguessgame:hover {
+    font-weight: bold;
 }
