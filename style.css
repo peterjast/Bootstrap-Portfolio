@@ -28,6 +28,7 @@
     .img-fluid {
         max-width: 100%;
         height: auto;
+        margin-top: .5rem;
     }
 
     .navbar-brand.mb-1.h1 {
